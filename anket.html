@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memnuyet Anketi</title>
+
+    <link rel="stylesheet" href="anket.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 id="title" class="text_center">Alışveriş Deneyimi Soruları</h1>
+
+        <p id="description" class="description text_center">
+         Katıldığınız için teşekkür ederiz !!!
+        </p>
+      </header>
+
+      <!-- lets now create our form -->
+
+      <form id="survey_form" autocomplete="off">
+        <div class="form_group">
+          <label for="name" id="name_label"> Adi</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form_control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form_group">
+          <label for="email" id="email_label"> Email </label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form_control"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+
+        <div class="form_group">
+          <label for="number" id="number_label">
+            Yaşınız <span class="clue">(Optional)</span>
+          </label>
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="10"
+            max="99"
+            class="form_control"
+            placeholder="Age"
+          />
+        </div>
+
+        <div class="form_group">
+          <p>Ürünleri bulma konusundaki sitemizin kolaylığını nasıl değerlendirirsiniz?</p>
+          <select name="role" id="dropdown" class="form_control">
+            <option value="student">Çok Kolay</option>
+            <option value="job">Kolay</option>
+            <option value="learner">Ortalama</option>
+            <option value="preferNo">Zor</option>
+            <option value="other">Çok zor</option>
+          </select>
+        </div>
+        <div class="form_group">
+            <p>Ürün fiyatları sizi tatmin etti mi</p>
+            <select name="role" id="dropdown" class="form_control">
+              <option value="student">Evet, fiyatlar makuldü.</option>
+              <option value="job">Bazı ürünlerin fiyatları yüksekti</option>
+              <option value="learner">Fiyatlar genel olarak yüksekti.</option>
+              
+            </select>
+          </div>
+          <div class="form_group">
+            <p>Ürün açıklamaları yeterli ve bilgilendirici miydi?</p>
+            <select name="role" id="dropdown" class="form_control">
+              <option value="student">Evet, açıklamalar çok iyiydi..</option>
+              <option value="job">Bazı ürünlerin açıklamaları eksik veya belirsizdi.</option>
+              <option value="learner">Ürün açıklamalarını daha detaylı yapmanızı öneririm.</option>
+              
+            </select>
+          </div>
+
+        <!-- lets also add some more field -->
+        <div class="form_group">
+          <p>Sipariş sürecini basit ve anlaşılır buluyor musunuz?</p>
+          <label>
+            <input
+              type="radio"
+              name="user-recommend"
+              value="definitely"
+              class="input_radio"
+              checked
+            />
+            kesinlikle
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="user-recommend"
+              value="maybe"
+              class="input_radio"
+            />
+           Herhalde
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="user-recommend"
+              value="not-sure"
+              class="input_radio"
+            />
+            Hiç
+          </label>
+        </div>
+
+        <div class="form_group">
+          <p>Müşteri hizmetleri ile iletişim kurduğunuzda memnun kaldınız mı?</p>
+
+          <select name="mostLike" id="most-like" class="form_control">
+            <option value="components">Evet, hızlı ve yardımseverdiler</option>
+            <option value="animation">Cevap almak biraz zaman aldı</option>
+            <option value="loader">Müşteri hizmetleri iletişimi iyileştirebilir.</option>
+            <option value="other">Başka</option>
+          </select>
+        </div>
+
+        <div class="form_group">
+          <p>Bizi nasıl buldunuz?</p>
+
+          <label>
+            <input
+              type="checkbox"
+              name="prefer"
+              value="front-end-projects"
+              class="input_checkbox"
+            />
+            Arama Motorları
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              name="prefer"
+              value="back-end-projects"
+              class="input_checkbox"
+            />
+            Sosyal Medya
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              name="prefer"
+              value="challenges"
+              class="input_checkbox"
+            />
+            Öneri
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              name="prefer"
+              value="programming"
+              class="input_checkbox"
+            />
+            Reklamlar
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              name="prefer"
+              value="other"
+              class="input_checkbox"
+            />
+            E-posta Pazarlama
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              name="prefer"
+              value="programming"
+              class="input_checkbox"
+            />
+            Diğer (Lütfen Belirtin)
+          </label>
+        </div>
+
+        <!-- finally lets add textarea -->
+        <div class="form_group">
+          <p>Herhangi bir yorumunuz veya öneriniz var mı ?</p>
+          <textarea
+            name="comment"
+            class="input_textarea"
+            id="comment"
+            placeholder="Enter your comment here..."
+          ></textarea>
+        </div>
+
+        
+
+        <div class="form_group">
+          <button type="submit" class="submit_btn">Submit</button>
+        </div>
+      </form>
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const form = document.getElementById('survey_form');
+
+          form.addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent the default form submission behavior
+
+            // Your form validation logic goes here
+            // For simplicity, let's assume the form is valid
+            const isFormValid = true;
+
+            if (isFormValid) {
+              // If the form is valid, show a confirmation message
+              const confirmation = confirm('Formu göndermek istediğinizden emin misiniz?');
+
+              if (confirmation) {
+                // If the user clicks OK, submit the form
+                // You might want to use AJAX to submit the form data to the server
+                // For simplicity, we'll assume a successful submission here
+                alert('Form başarıyla gönderildi! Teşekkür ederiz'); // Display a confirmation message
+                form.reset(); // Optionally, reset the form after submission
+              }
+            }
+          });
+        });
+      </script>
+    </div>
+  </body>
+</html>
+

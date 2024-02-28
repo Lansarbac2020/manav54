@@ -1,0 +1,96 @@
+[
+    {
+        "id": 1,
+        "name": "Havuç",
+        "price": 35,
+        "image": "https://img.freepik.com/photos-premium/carottes-fraiches-isoles-blanc_272787-150.jpg?size=626&ext=jpg&ga=GA1.1.1278914853.1685783879&semt=sph"
+    },
+    {
+        "id": 2,
+        "name": "ELMA",
+        "price": 220,
+        "image": "https://img.freepik.com/free-photo/delicious-red-apples-studio_23-2150811107.jpg?ga=GA1.1.913674640.1701261607&semt=ais_ai_generated"
+    },
+    {
+        "id": 3,
+        "name": "ŞEFTALI",
+        "price": 250,
+        "image": "https://img.freepik.com/free-photo/delicious-peach-isolated-white-background_181624-29175.jpg?size=626&ext=jpg&ga=GA1.1.913674640.1701261607&semt=ais"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "ÇİLEK",
+        "price": 100,
+        "image": "https://img.freepik.com/free-psd/view-ripe-sweet-fruit_23-2150112912.jpg?size=626&ext=jpg&ga=GA1.1.913674640.1701261607&semt=ais"
+    },
+    {
+        "id": 5,
+        "name": "LEBLEBİ",
+        "price": 89,
+        "image": "https://img.freepik.com/photos-premium/leblebi-turc-noix-celebres-pois-chiches-grilles-jaunes-isoles-fond-blanc-pois-chiches-grilles_205832-2617.jpg?size=626&ext=jpg&uid=R130330615&ga=GA1.1.1278914853.1685783879&semt=sph"
+    },
+    {
+        "id": 6,
+        "name": "PATLICAN",
+        "price": 120,
+        "image": "https://img.freepik.com/photos-gratuite/aubergines-autre-vue-grand-angle-blanc_176474-2272.jpg?size=626&ext=jpg&ga=GA1.1.1278914853.1685783879&semt=sph"
+    },
+    {
+        "id": 7,
+        "name": "Soğan",
+        "price": 55,
+        "image":"https://img.freepik.com/photos-premium/bulbes-oignon-frais-isoles-blanc_252965-131.jpg?size=626&ext=jpg&ga=GA1.1.1278914853.1685783879&semt=sph"
+    },
+    {
+        "id": 8,
+        "name": "BIBER",
+        "price": 59,
+        "image":"https://img.freepik.com/photos-premium/piments-rouges_94989-162.jpg?size=626&ext=jpg&ga=GA1.1.1278914853.1685783879&semt=ais"
+    },
+    {
+        "id": 9,
+        "name": "MARUL",
+        "price": 55,
+        "image":"https://img.freepik.com/photos-premium/laitue-fraiche-isolee-blanc_792356-178.jpg?w=900"
+    },
+    {
+        "id": 10,
+        "name": "PATATES",
+        "price": 89,
+        "image":"https://img.freepik.com/premium-photo/new-potatoes-sackcloth-bag-isolated-white_899263-6057.jpg?w=826"
+    },
+    {
+        "id": 11,
+        "name": "KAJU",
+        "price": 155,
+        "image":"https://img.freepik.com/photos-gratuite/anacarde-naturelle_1368-5462.jpg?size=626&ext=jpg&ga=GA1.1.1278914853.1685783879&semt=ais"
+    },
+    {
+        "id": 12,
+        "name": "MAYDANOZ",
+        "price": 15,
+        "image":"https://img.freepik.com/photos-gratuite/persil-frais-isole_144627-30012.jpg?w=900&t=st=1701888336~exp=1701888936~hmac=a88551c8d54a8bb6964d2f8070d1740c35087d239a719a69425189bce80af5ac"
+    },
+    {
+        "id": 13,
+        "name": "ISPANAK",
+        "price": 25,
+        "image":"https://img.freepik.com/photos-gratuite/epinards-table_144627-20711.jpg?size=626&ext=jpg&ga=GA1.1.1278914853.1685783879&semt=sph"
+    },
+    {
+        "id": 14,
+        "name": "KURU CILEK",
+        "price": 125,
+        "image":"https://img.freepik.com/photos-gratuite/raisins-seches_1368-9149.jpg?size=626&ext=jpg&ga=GA1.1.1278914853.1685783879&semt=ais"
+    },
+    {
+        "id":15,
+        "name":"CEVIZ",
+        "price":100,
+        "image":"https://img.freepik.com/photos-gratuite/noix-fraiche_144627-16135.jpg?size=626&ext=jpg&ga=GA1.1.1278914853.1685783879&semt=sph"
+    }
+
+
+
+]
